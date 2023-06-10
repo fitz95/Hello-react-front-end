@@ -2,8 +2,9 @@ import axios from 'axios';
 
 export const fetchRandomGreeting = () => async (dispatch) => {
   try {
-    const response = await axios.get('/greetings/random');
+    const response = await axios.get('http://127.0.0.1:3000/api/random_greeting');
     const randomGreeting = response.data;
+    console.log(randomGreeting);
     dispatch({ type: 'FETCH_RANDOM_GREETING_SUCCESS', payload: randomGreeting });
   } catch (error) {
     dispatch({ type: 'FETCH_RANDOM_GREETING_FAILURE', payload: error.message });
