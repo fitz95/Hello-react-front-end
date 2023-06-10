@@ -20,9 +20,9 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 REACT TODO App- <a name="about-project"></a>
+# 📖 Hello React front end  App- <a name="about-project"></a>
 
-**React Todo App -** is a TODO  Web App .
+**Hello React front end App -** is fornt end  Web App .
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -42,10 +42,8 @@ VS Code
 
 ### Key Features <a name="key-features"></a>
 
-- **Add Todo Ativity**
-- **Edit Todo Ativity**
-- **Remove Todo Ativity**
-- **Route Navigation Todo App**
+- **Fectch Data from Api**
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -76,7 +74,7 @@ Clone this repository to your desired folder:
 
 cd my-folder
 
-git clone https://github.com/fitz95/React-Todo-App-.git
+git clone https://github.com/fitz95/hello-react-front-end-.git
 Example commands:
 
 ```sh
