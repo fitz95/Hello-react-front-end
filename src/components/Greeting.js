@@ -6,7 +6,7 @@ import { fetchRandomGreeting } from '../actions/actions';
 
 function Greeting() {
   const dispatch = useDispatch();
-  const greeting = useSelector(state => state.greeting);
+  const greeting = useSelector((state) => state.greeting);
 
   useEffect(() => {
     dispatch(fetchRandomGreeting());
